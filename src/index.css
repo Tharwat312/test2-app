@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center {
+    @apply flex items-center justify-center
+}
+
+.active {
+    background-color: #1ABC9C;
+    border-radius: 6px;
+}
+
+.row {
+    @apply flex items-center justify-center flex-wrap
+}
